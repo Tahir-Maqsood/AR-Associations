@@ -11,3 +11,27 @@ end
 10.times do
   Book.create(title: Faker::Book.title, author: Author.all.sample)
 end
+
+# Helper method to generate random names
+def generate_random_name
+  Faker::Name.unique.name
+end
+
+# Create 10 physicians
+10.times do
+  Physician.create(name: generate_random_name)
+end
+
+# Create 10 patients
+10.times do
+  Patient.create(name: generate_random_name)
+end
+
+# Create 10 appointments associating physicians and patients
+10.times do
+  Appointment.create(
+    physician: Physician.all.sample,
+    patient: Patient.all.sample,
+    appointment_date: Faker::Time.between(from: DateTime.now, to: DateTime.now + 30, format: :default)
+  )
+end
