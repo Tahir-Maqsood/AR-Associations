@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.1].define(version: 2023_12_08_152009) do
+ActiveRecord::Schema[7.1].define(version: 2023_12_08_173603) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
@@ -32,6 +32,19 @@ ActiveRecord::Schema[7.1].define(version: 2023_12_08_152009) do
     t.datetime "updated_at", null: false
   end
 
+  create_table "assemblies", force: :cascade do |t|
+    t.string "name"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "assemblies_parts", id: false, force: :cascade do |t|
+    t.bigint "assembly_id", null: false
+    t.bigint "part_id", null: false
+    t.index ["assembly_id", "part_id"], name: "index_assemblies_parts_on_assembly_id_and_part_id", unique: true
+    t.index ["part_id", "assembly_id"], name: "index_assemblies_parts_on_part_id_and_assembly_id", unique: true
+  end
+
   create_table "authors", force: :cascade do |t|
     t.string "name"
     t.string "email"
@@ -45,6 +58,12 @@ ActiveRecord::Schema[7.1].define(version: 2023_12_08_152009) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["author_id"], name: "index_books_on_author_id"
+  end
+
+  create_table "parts", force: :cascade do |t|
+    t.string "name"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
   create_table "patients", force: :cascade do |t|

@@ -35,3 +35,18 @@ end
     appointment_date: Faker::Time.between(from: DateTime.now, to: DateTime.now + 30, format: :default)
   )
 end
+
+# Create 10 assemblies
+10.times do
+  Assembly.create(name: generate_random_name)
+end
+
+# Create 10 parts
+10.times do
+  Part.create(name: generate_random_name)
+end
+
+# Associate random parts with random assemblies
+Assembly.all.each do |assembly|
+  assembly.parts << Part.all.sample(rand(1..5))  # You can adjust the range as needed
+end
