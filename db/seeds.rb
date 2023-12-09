@@ -50,3 +50,34 @@ end
 Assembly.all.each do |assembly|
   assembly.parts << Part.all.sample(rand(1..5))  # You can adjust the range as needed
 end
+
+# Helper method to generate random titles and content (polymorphic association)
+def generate_random_text
+  Faker::Lorem.sentence
+end
+
+# Create 5 posts
+5.times do
+  post = Post.create(
+    title: generate_random_text,
+    content: generate_random_text
+  )
+
+  # Create 2 comments for each post
+  2.times do
+    post.comments.create(body: generate_random_text)
+  end
+end
+
+# Create 5 blogs
+5.times do
+  blog = Blog.create(
+    title: generate_random_text,
+    content: generate_random_text
+  )
+
+  # Create 2 comments for each article
+  2.times do
+    blog.comments.create(body: generate_random_text)
+  end
+end

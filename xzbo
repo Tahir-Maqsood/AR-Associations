@@ -1,0 +1,62 @@
+ => 
+[[32m#<Post:0x0000564710b57e78[0m
+  id: [34m[1m1[0m,
+  title: [31m[1m"[0m[31mQuaerat occaecati dolor aut.[0m[31m[1m"[0m,
+  content: [31m[1m"[0m[31mEnim quas quo corrupti.[0m[31m[1m"[0m,
+  created_at: Sat, 09 Dec 2023 10:10:46.421969000 UTC +00:00,
+  updated_at: Sat, 09 Dec 2023 10:10:46.421969000 UTC +00:00[32m>[0m,
+ [32m#<Post:0x0000564710b57d38[0m
+  id: [34m[1m2[0m,
+  title: [31m[1m"[0m[31mDolorum provident velit ad.[0m[31m[1m"[0m,
+  content: [31m[1m"[0m[31mAut maxime provident et.[0m[31m[1m"[0m,
+  created_at: Sat, 09 Dec 2023 10:10:46.443907000 UTC +00:00,
+  updated_at: Sat, 09 Dec 2023 10:10:46.443907000 UTC +00:00[32m>[0m,
+ [32m#<Post:0x0000564710b57c70[0m
+  id: [34m[1m3[0m,
+  title: [31m[1m"[0m[31mEst consequatur voluptatum provident.[0m[31m[1m"[0m,
+  content: [31m[1m"[0m[31mAut consectetur aliquid assumenda.[0m[31m[1m"[0m,
+  created_at: Sat, 09 Dec 2023 10:10:46.452539000 UTC +00:00,
+  updated_at: Sat, 09 Dec 2023 10:10:46.452539000 UTC +00:00[32m>[0m,
+ [32m#<Post:0x0000564710b57ba8[0m
+  id: [34m[1m4[0m,
+  title: [31m[1m"[0m[31mIpsam omnis libero perferendis.[0m[31m[1m"[0m,
+  content: [31m[1m"[0m[31mVoluptatem sapiente consequuntur accusamus.[0m[31m[1m"[0m,
+  created_at: Sat, 09 Dec 2023 10:10:46.460687000 UTC +00:00,
+  updated_at: Sat, 09 Dec 2023 10:10:46.460687000 UTC +00:00[32m>[0m,
+ [32m#<Post:0x0000564710b57ae0[0m
+  id: [34m[1m5[0m,
+  title: [31m[1m"[0m[31mEt dolore dolor eum.[0m[31m[1m"[0m,
+  content: [31m[1m"[0m[31mAccusantium dolorem dolor nam.[0m[31m[1m"[0m,
+  created_at: Sat, 09 Dec 2023 10:10:46.468869000 UTC +00:00,
+  updated_at: Sat, 09 Dec 2023 10:10:46.468869000 UTC +00:00[32m>[0m,
+ [32m#<Post:0x0000564710b57a18[0m
+  id: [34m[1m6[0m,
+  title: [31m[1m"[0m[31mVoluptate quia distinctio qui.[0m[31m[1m"[0m,
+  content: [31m[1m"[0m[31mDelectus et occaecati iste.[0m[31m[1m"[0m,
+  created_at: Sat, 09 Dec 2023 10:11:48.861657000 UTC +00:00,
+  updated_at: Sat, 09 Dec 2023 10:11:48.861657000 UTC +00:00[32m>[0m,
+ [32m#<Post:0x0000564710b57950[0m
+  id: [34m[1m7[0m,
+  title: [31m[1m"[0m[31mCum commodi enim molestiae.[0m[31m[1m"[0m,
+  content: [31m[1m"[0m[31mNihil reiciendis rem a.[0m[31m[1m"[0m,
+  created_at: Sat, 09 Dec 2023 10:11:48.883413000 UTC +00:00,
+  updated_at: Sat, 09 Dec 2023 10:11:48.883413000 UTC +00:00[32m>[0m,
+ [32m#<Post:0x0000564710b57888[0m
+  id: [34m[1m8[0m,
+  title: [31m[1m"[0m[31mTempore eum ratione temporibus.[0m[31m[1m"[0m,
+  content: [31m[1m"[0m[31mA neque sit modi.[0m[31m[1m"[0m,
+  created_at: Sat, 09 Dec 2023 10:11:48.891737000 UTC +00:00,
+  updated_at: Sat, 09 Dec 2023 10:11:48.891737000 UTC +00:00[32m>[0m,
+ [32m#<Post:0x0000564710b577c0[0m
+  id: [34m[1m9[0m,
+  title: [31m[1m"[0m[31mExcepturi ea voluptatem aspernatur.[0m[31m[1m"[0m,
+  content: [31m[1m"[0m[31mIncidunt est quis aliquid.[0m[31m[1m"[0m,
+  created_at: Sat, 09 Dec 2023 10:11:48.900410000 UTC +00:00,
+  updated_at: Sat, 09 Dec 2023 10:11:48.900410000 UTC +00:00[32m>[0m,
+ [32m#<Post:0x0000564710b576f8[0m
+  id: [34m[1m10[0m,
+  title: [31m[1m"[0m[31mIusto non possimus culpa.[0m[31m[1m"[0m,
+  content: [31m[1m"[0m[31mOdit ut sint sequi.[0m[31m[1m"[0m,
+  created_at: Sat, 09 Dec 2023 10:11:48.909690000 UTC +00:00,
+  updated_at: Sat, 09 Dec 2023 10:11:48.909690000 UTC +00:00[32m>[0m,
+ [31m[1m"[0m[31m...[0m[31m[1m"[0m] 
